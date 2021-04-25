@@ -1,0 +1,115 @@
+/* format the "index_main" */
+
+#index_middle {
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+}
+
+#index_middle p {
+  line-height: 1.4em;
+}
+
+#intro {
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 20px 80px auto;
+   	text-align: left;
+}
+
+#main {
+	float: left;
+	width: 70%;
+	padding-left: 0px;
+	margin: 20px 100px;
+}
+
+#intro p {
+  font-family: Palatino Linotype;
+  color:#2f2f2f;
+  font-size: 17px;
+  line-height: 1.6;
+  /*text-indent: 2em;*/
+  text-align: justify;
+  margin: 10px 40px 10px 40px;
+  padding: 5px;
+}
+
+#index_middle em {
+  font-style: normal;
+  font-weight: bold;  
+}
+
+#index_middle .panel em {
+  font-style: italic;
+  font-weight: normal;
+}
+
+#index_middle ul {
+  padding: 0 2em 0 0;
+  margin: 0;
+}
+
+#index_middle li {
+  font-family: Palatino Linotype;
+  color:#2f2f2f;
+  font-size: 17px;
+  line-height: 1.4;
+  /*text-indent: 2em;*/
+  text-align: justify;
+  margin: 0px 40px 0px 40px;
+  padding: 5px;
+}
+
+#index_middle .link{
+  cursor: pointer;
+  text-decoration: none;
+  color: #074987;
+  font-weight: bold;
+}
+
+#index_middle .currentLink {
+  cursor: auto;
+  font-weight: bold;
+  color: #666;
+  text-decoration: none ! important;
+}
+
+/* format the "panels" */
+#controlPanel {
+  margin: 0;
+  float: left;
+  width: 25%;
+}
+
+div.panel {
+  float: left;
+  width: 75%;
+}
+
+div.panel p {
+  margin: 0;
+  padding: 0.4em 0;
+  clear: left;
+}
+
+div.panel h3 {
+  text-transform: uppercase;
+  font-size: 1em;
+  margin: 0;
+  padding: 0.4em 0;
+  color: #666;
+}
+
+#controlPanel li {
+  text-align: right;
+}
+
+#submitButton {
+  float: left;
+}
+
+.people-img {
+  width: 100px;
+}

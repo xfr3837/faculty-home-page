@@ -1,0 +1,304 @@
+body {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 3em;
+	font-family: Verdana, Arial, sans-serif;
+	/*
+      this was here to prevent jitter when jumping between a long page and a short page.  turning it off to see if Robert notices anymore.
+      height: 1600px;
+    */
+
+    /* set a default absolute font-size so if people change the
+    default fonts/sizes in their browser, we're immune. */
+	font-size: 11pt;
+    background: white;
+}
+img{
+	border:0;
+}
+p {
+	font-size: .8em;
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;  
+}
+
+li {
+	font-size: .8em;
+}
+
+h2 {
+	color: #210774;
+	font-size: 1.3em;
+	margin: 0;
+	margin-bottom: 8px;
+	font-weight: 600;
+	border-bottom: 1px groove #76a1da;
+}
+
+h3 {
+	color: #210774;
+	font-size: 1.2em;
+	margin: 0;
+	margin-bottom: 8px;
+	font-weight: 500;
+}
+
+h4 {
+	margin: 0px;
+	margin-top: 5px !important;
+	margin-bottom: 7px;
+	color: #210774;
+	font-size: .9em;
+	font-weight: bold;
+}
+
+a {
+	outline: none;
+	border: none;
+	color: #004065;
+}
+
+a:hover {
+	color: #76a1da;
+}
+
+a img {
+	border: 0;
+}
+
+.foo {
+	background-color: #FF0000;
+}
+
+code {
+	font-size: 1.1em;
+	border: 1px solid #99F;
+	padding-right: .25em;
+	padding-left: .25em;
+}
+
+div p {
+	margin: 3px 0px 15px 0px;
+}
+
+/* @end */
+
+.sub_holder {
+	width: 1000px;
+	margin: 0 auto;
+    padding-left: 3px;
+}
+
+/* Page header */
+
+#header_holder {
+	float: left;
+	width: 100%;
+	background: url(/images/decoration/back_predgo.jpg) repeat-x;
+	margin-top:0px;
+	padding: 0px;
+}
+
+#header_holder h1 {
+	color: #949694;
+	font-family: Garamond, Times New Roman, Times, serif;
+	font-size: 1.5em;
+	font-weight: 105;
+	float: right;
+	width: 700px;
+	padding: 0px;
+	margin: 40px 0px 0px 9px;
+}
+
+#logo_holder {
+	float: left;
+	width: 160px;
+	color: #f0f0f0;
+	margin: 20px 0 5px 0;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+#title_holder {
+	float: left;
+	width: 500px;
+	color: #f0f0f0;
+	margin: 20px 0 0 0;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+#logo {
+	margin-left: 0px;
+}
+
+#logo_holder span {
+	display: block;
+	margin-top: 23px;
+	color: #A4C5EB;
+}
+
+/* @end */
+
+/* @ Top Navigation */
+
+#nav {
+	background: #05060A url(images/decoration/tab_bg.gif) repeat-x left 4px;
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#nav ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-left: 30px;
+}
+
+#nav li {
+	display: block;
+	float: left;
+	list-style: none;
+	width: auto;
+	font-size: 1.3em;
+}
+
+#nav li.sub {
+	float: right;
+	width: auto;
+}
+
+#nav li.selected {
+	background: transparent url(/images/decoration/tab_bg_selected.gif) no-repeat left top;
+}
+
+#nav li a {
+	/*text-transform: uppercase;*/
+	font-size: .75em;
+	text-decoration: none;
+	font-weight: 500;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	width: auto;
+	margin-top: 4px;
+	padding: 3px 15px 3px;
+	border-left: 1px solid #858585;
+	border-right: 1px solid #A2A2A2;
+}
+
+#nav li.selected a {
+	margin-top: 0px;
+	padding: 7px 16px 3px;
+	color: #000000 !important;
+	background: transparent url(images/decoration/tab_bg_r_selected.gif) no-repeat right top;
+	border: none;
+}
+
+#nav li.selected a:hover {
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+#nav li a:hover {
+	background-color: #76a1da;
+}
+
+/* @end */
+
+/* Footer */
+#footer {
+	clear: both;
+	height: 50px;
+	margin-top: -50px;
+	position: relative;
+	width: 100%;
+	border-top:1px solid #dcdcdc;
+}
+
+#foot {
+	width: 90%;
+	margin: 0px auto;
+	padding: 0 10px 0 10px;
+	color: #999999;
+	font-size: 14px;
+	text-align: center;
+	line-height: 50px;
+}
+
+
+.pnav {
+		CLEAR: right; MARGIN: 0px 7px 0px 0px;float:right
+}
+.pages-nav {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 24px;float:right
+}
+.pages-nav .brackets {
+	DISPLAY: none; VISIBILITY: hidden
+}
+.pages-nav .mini-page {
+	DISPLAY: none; VISIBILITY: hidden
+}
+.pages-nav .first-page {
+	MARGIN-TOP: 19px
+}
+.pages-nav A.backToTop:link {
+	DISPLAY: none; BACKGROUND: #fff; COLOR: white; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.pages-nav A.backToTop:hover {
+	BACKGROUND: white; COLOR: white
+}
+.pages-nav A.backToTop:visited {
+	COLOR: #fff; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.pages-nav A {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN-LEFT: 4px; PADDING-TOP: 1px
+}
+.pages-nav SPAN {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN-LEFT: 4px; PADDING-TOP: 1px
+}
+.pages-nav A {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; BACKGROUND: #fff; BORDER-LEFT: #ddd 1px solid; COLOR: #000; BORDER-BOTTOM: #ddd 1px solid; TEXT-DECORATION: none
+}
+.pages-nav A:link {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; BACKGROUND: #fff; BORDER-LEFT: #ddd 1px solid; COLOR: #000; BORDER-BOTTOM: #ddd 1px solid; TEXT-DECORATION: none
+}
+.pages-nav A:visited {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; BACKGROUND: #fff; BORDER-LEFT: #ddd 1px solid; COLOR: #000; BORDER-BOTTOM: #ddd 1px solid; TEXT-DECORATION: none
+}
+.pages-nav A:hover {
+	BORDER-LEFT-COLOR: #ddd; BACKGROUND: #f30; BORDER-BOTTOM-COLOR: #ddd; COLOR: #fff; BORDER-TOP-COLOR: #ddd; TEXT-DECORATION: none; BORDER-RIGHT-COLOR: #ddd
+}
+.pages-nav SPAN {
+	COLOR: #999
+}
+.pages-nav SPAN.next {
+	COLOR: #ccc
+}
+.pages-nav .current {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; FONT-WEIGHT: bold; BORDER-LEFT: #fff 1px solid; COLOR: #000; BORDER-BOTTOM: #fff 1px solid
+}
+.pages-nav .next {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; BACKGROUND: #fff; BORDER-LEFT: #ddd 1px solid; COLOR: #000; BORDER-BOTTOM: #ddd 1px solid
+}
+
+.biblio-separator-bar{color:#000000;font-weight:bold;background-color:#e1e1e1;border:1px solid #ccc;padding:0.5em;margin:1em 0 1em 0;}
+
+
+#subnavlist{margin-bottom:1em;font-size:100%}
+#subnavlist li{margin-top:-1px;border-bottom:1px dotted #888;list-style-type:none;}
+#subnavlist li:last-child{border-bottom-width:0}
+#subnavlist li a{display:block;padding:0.5em 0;padding-left:0.5em;text-decoration:none}
+#subnavlist li a:hover{text-decoration:underline}
+#subnavlist li a:hover{color:#016a89}
+
+.biblio-authors a{font-weight:normal;text-decoration:none;font-style:normal;}
+.biblio-title a{color:#016a89}
+.biblio-title a{font-weight:bold;text-decoration:none;font-style:normal;line-height:normal;text-align:left;font-family:"@Arial Unicode MS",Arial,sans-serif;color:#336599;}a:active{}
+
